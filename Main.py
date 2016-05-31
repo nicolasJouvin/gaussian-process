@@ -10,8 +10,7 @@ try:
     with open('train.csv', 'rt') as f:
         reader = csv.reader(f)
         for row in reader:
-            data = data.append(row)
-            print(data)
+            data.append(row)
 except Exception as e:
     print (e)
 

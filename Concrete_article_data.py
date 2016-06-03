@@ -49,6 +49,6 @@ if __name__ == '__main__':
     plt.plot(np.linspace(X.min(), X.max(), n), y_pred[0], 'b')
     plt.scatter(X, y)
     plt.title('theta_0=%s     '%theta_0 + 'theta_L=%s     '%theta_L + 'theta_U=%s    '%theta_U)
-    plt.save
+    plt.savefig('Image Gp/Concrete_feature1_GP_theta0=%s'%theta_0 + 'thetaL=%s'%theta_L + 'thetaU=%s'%theta_U + '.png')
     plt.show()
 
